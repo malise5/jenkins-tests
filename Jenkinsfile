@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                 git url: 'giturl.git', branch: 'main'
+                 git url: 'https://github.com/malise5/jenkins-tests', branch: 'main'
             }
         }
 
