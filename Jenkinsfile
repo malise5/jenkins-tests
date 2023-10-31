@@ -1,8 +1,6 @@
-# jenkins-tests
-
 pipeline {
-agent any
-
+   agent any
+   
     stages {
         stage('Checkout') {
             steps {
@@ -31,5 +29,4 @@ agent any
             }
         }
     }
-
 }
